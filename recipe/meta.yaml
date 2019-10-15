@@ -2,7 +2,7 @@
 {% set version = "3.83" %}
 {% set build = 0 %}
 
-{% set mpi = 'mpich' %}
+{% set mpi = mpi or 'mpich' %}
 
 package:
   name: {{ name|lower }}

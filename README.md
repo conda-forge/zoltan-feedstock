@@ -30,17 +30,31 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux</td>
+              <td>linux_mpimpich</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=linux&configuration=linux_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=linux&configuration=linux_mpimpich" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx</td>
+              <td>linux_mpiopenmpi</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=osx&configuration=osx_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=linux&configuration=linux_mpiopenmpi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpimpich</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=osx&configuration=osx_mpimpich" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpiopenmpi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=osx&configuration=osx_mpiopenmpi" alt="variant">
                 </a>
               </td>
             </tr>
@@ -155,6 +169,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@DavidBrochart](https://github.com/DavidBrochart/)
 * [@JohanMabille](https://github.com/JohanMabille/)
 * [@SylvainCorlay](https://github.com/SylvainCorlay/)
 * [@cekees](https://github.com/cekees/)
