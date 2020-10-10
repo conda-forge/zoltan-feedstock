@@ -5,9 +5,13 @@ Home: http://www.cs.sandia.gov/Zoltan/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zoltan-feedstock/blob/master/LICENSE.txt)
 
 Summary: Parallel Partitioning, Load Balancing and Data-Management Services
+
+Development: https://cs.sandia.gov/Zoltan/
+
+Documentation: https://cs.sandia.gov/Zoltan/
 
 The Zoltan Library provides critical data-management services to a wide range of parallel applications.
 
@@ -30,49 +34,65 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_mpimpich</td>
+              <td>linux_64_c_compiler_version7cxx_compiler_version7fortran_compiler_version7mpimpich</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=linux&configuration=linux_mpimpich" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7cxx_compiler_version7fortran_compiler_version7mpimpich" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_mpiopenmpi</td>
+              <td>linux_64_c_compiler_version7cxx_compiler_version7fortran_compiler_version7mpiopenmpi</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=linux&configuration=linux_mpiopenmpi" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7cxx_compiler_version7fortran_compiler_version7mpiopenmpi" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_mpimpich</td>
+              <td>linux_64_c_compiler_version9cxx_compiler_version9fortran_compiler_version9mpimpich</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=osx&configuration=osx_mpimpich" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version9cxx_compiler_version9fortran_compiler_version9mpimpich" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_mpiopenmpi</td>
+              <td>linux_64_c_compiler_version9cxx_compiler_version9fortran_compiler_version9mpiopenmpi</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=osx&configuration=osx_mpiopenmpi" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version9cxx_compiler_version9fortran_compiler_version9mpiopenmpi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_c_compiler_version10cxx_compiler_version10fortran_compiler_version7mpimpich</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10cxx_compiler_version10fortran_compiler_version7mpimpich" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_c_compiler_version10cxx_compiler_version10fortran_compiler_version7mpiopenmpi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10cxx_compiler_version10fortran_compiler_version7mpiopenmpi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_c_compiler_version10cxx_compiler_version10fortran_compiler_version9mpimpich</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10cxx_compiler_version10fortran_compiler_version9mpimpich" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_c_compiler_version10cxx_compiler_version10fortran_compiler_version9mpiopenmpi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10cxx_compiler_version10fortran_compiler_version9mpiopenmpi" alt="variant">
                 </a>
               </td>
             </tr>
           </tbody>
         </table>
       </details>
-    </td>
-  </tr>
-  <tr>
-    <td>Windows</td>
-    <td>
-      <img src="https://img.shields.io/badge/Windows-disabled-lightgrey.svg" alt="Windows disabled">
-    </td>
-  </tr>
-  <tr>
-    <td>Linux_ppc64le</td>
-    <td>
-      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
     </td>
   </tr>
 </table>
@@ -120,7 +140,7 @@ A feedstock is made up of a conda recipe (the instructions on what and how to bu
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
 [Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 
@@ -173,4 +193,5 @@ Feedstock Maintainers
 * [@JohanMabille](https://github.com/JohanMabille/)
 * [@SylvainCorlay](https://github.com/SylvainCorlay/)
 * [@cekees](https://github.com/cekees/)
+* [@rishi9699](https://github.com/rishi9699/)
 
