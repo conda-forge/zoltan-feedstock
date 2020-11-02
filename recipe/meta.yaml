@@ -9,7 +9,7 @@ package:
   version: {{ version }}
 
 source:
-  url: http://www.cs.sandia.gov/~kddevin/Zoltan_Distributions/zoltan_distrib_v{{ version }}.tar.gz
+  url: http://cs.sandia.gov/Zoltan/Zoltan_Distributions/zoltan_distrib_v{{ version }}.tar.gz
   sha256: f5c866b87e1d17805b934722b0c7d042eaf1c295b472018ef4f35075b8d2cde4
   patches:
     - token-replace.pl.patch
