@@ -5,7 +5,7 @@ Home: http://www.cs.sandia.gov/Zoltan/
 
 Package license: BSD-3-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/switch_source_to_github-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zoltan-feedstock/blob/master/LICENSE.txt)
 
 Summary: Parallel Partitioning, Load Balancing and Data-Management Services
 
@@ -27,8 +27,8 @@ Current build status
     <td>
       <details>
         <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/switch_source_to_github-feedstock?branchName=master">
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master">
           </a>
         </summary>
         <table>
@@ -36,29 +36,29 @@ Current build status
           <tbody><tr>
               <td>linux_64_mpimpich</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/switch_source_to_github-feedstock?branchName=master&jobName=linux&configuration=linux_64_mpimpich" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=linux&configuration=linux_64_mpimpich" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_mpiopenmpi</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/switch_source_to_github-feedstock?branchName=master&jobName=linux&configuration=linux_64_mpiopenmpi" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=linux&configuration=linux_64_mpiopenmpi" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_mpimpich</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/switch_source_to_github-feedstock?branchName=master&jobName=osx&configuration=osx_64_mpimpich" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=osx&configuration=osx_64_mpimpich" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_mpiopenmpi</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/switch_source_to_github-feedstock?branchName=master&jobName=osx&configuration=osx_64_mpiopenmpi" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8133&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zoltan-feedstock?branchName=master&jobName=osx&configuration=osx_64_mpiopenmpi" alt="variant">
                 </a>
               </td>
             </tr>
