@@ -1,6 +1,6 @@
 {% set name = "zoltan" %}
-{% set version = "3.83" %}
-{% set build = 2 %}
+{% set version = "3.90" %}
+{% set build = 0 %}
 
 {% set mpi = mpi or 'mpich' %}
 
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/sandialabs/Zoltan/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 17320a9f08e47f30f6f3846a74d15bfea6f3c1b937ca93c0ab759ca02c40e56c
+  sha256: 30a470af4d97cf03aa5434eb0a095f627a3a8096ecdb17f4f6b9ce58e832d28b
   patches:
     - token-replace.pl.patch
 
