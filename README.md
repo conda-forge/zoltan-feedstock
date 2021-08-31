@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zoltan-feedstoc
 
 Summary: Parallel Partitioning, Load Balancing and Data-Management Services
 
-Development: https://cs.sandia.gov/Zoltan/
+Development: https://github.com/sandialabs/Zoltan
 
 Documentation: https://cs.sandia.gov/Zoltan/
 
@@ -167,4 +167,5 @@ Feedstock Maintainers
 * [@SylvainCorlay](https://github.com/SylvainCorlay/)
 * [@cekees](https://github.com/cekees/)
 * [@rishi9699](https://github.com/rishi9699/)
+* [@xylar](https://github.com/xylar/)
 
