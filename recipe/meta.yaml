@@ -28,6 +28,7 @@ requirements:
     - {{ compiler('cxx') }}
     - {{ compiler('fortran') }}
     - make
+    - gnuconfig   # [unix]
   host:
     - {{ mpi }}
     - perl
