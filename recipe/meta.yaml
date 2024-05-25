@@ -1,6 +1,6 @@
 {% set name = "zoltan" %}
 {% set version = "3.901" %}
-{% set build = 1 %}
+{% set build = 2 %}
 
 {% set mpi = mpi or 'mpich' %}
 
@@ -25,6 +25,7 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - {{ compiler('fortran') }}
     - make
